@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container pt-5">
+    <!--Com bootstrap-->
+    <!--
+        01 - Tipo primary com cor do texto black
+        02 - Tipo danger com cor do texto dark
+        03 - Tipo warning
+        04 - Tipo info com cor do texto secondary e o background do texto sucess
+
+        Crie botoes usando elementos da tag "a" e do tipo input "submit"
+        05 - Tag "a": tipo primary
+        06 - Tag input "submit": tipo sucess
+
+        Crie botoes do tipo Outline 
+        07 - Botão do tipo primary
+        08 - Botão do tipo warning 
+
+        Crie um botão ocupando uma linha inteira
+        09 - Do tipo outline sucess, larger e margin top 3
+    -->
+    <button type="button" class="btn btn-primary text-black"> Comprar </button>
+    <button type="button" class="btn btn-danger text-dark"> Comprar </button>
+    <button type="button" class="btn btn-warning">Comprar</button>
+    <button type="button" class="btn btn-info bg-success text-secondary">Comprar</button>
+    <a href="#" class="btn btn-primary"> Botão </a>
+    <input type="submit" value="Botão" class="btn btn-success">
+    <button type="button" class="btn btn-outline-primary">Outline</button>
+    <button type="button" class="btn btn-outline-warning">Outline</button>
+    <div class="d-grid gap-2 mt-3 ">
+        <button class="btn btn-outline-success" type="button">Button</button>
+    </div>
+    <br><br>
+    <div>
+        <button type="button" class=" w-25 p-3 btn btn-outline-primary"> 25%</button><br><br>
+        <button type="button" class="w-50 p-3 btn btn-outline-primary"> 50%</button><br><br>
+        <button type="button" class="w-75 p-3 btn btn-outline-primary"> 75%</button><br><br>
+    </div>
+    <!--Crinado um boxModel-->
+    <h1>BoxModel</h1>
+    <hr>
+    <div class="display-1 bg-warning border border-primary border-5 rounded-5 text-center "> 
+        BoxModel
+    </div>
+</html>

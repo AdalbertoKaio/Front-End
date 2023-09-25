@@ -1,0 +1,28 @@
+@media (min-width: 768px)
+{
+    .principal{
+        background-image: url(/Bootstrap/Exercícios/img/celularr.jpg);
+
+}
+}
+@media (min-width: 992px)
+{
+    .principal{
+        background-image: url(/Bootstrap/Exercícios/img/tablet.jpg);
+
+}
+}
+@media (min-width: 1200px)
+{
+    .principal{
+        background-image: url(/Bootstrap/Exercícios/img/computador.png);
+
+}
+}
+@media (min-width: 1400px)
+{
+    .principal{
+        background-image: url(/Bootstrap/Exercícios/img/tv.jpg);
+
+}
+}

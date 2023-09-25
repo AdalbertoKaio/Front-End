@@ -1,0 +1,33 @@
+@media (max-width: 575px)
+{
+    .principal{
+        background-color: red;
+    }
+
+}
+
+@media(min-width: 576px)
+{
+    .principal{
+        background-color: blue;
+    }
+}
+
+@media(min-width: 768px)
+{
+    .principal{
+        background-color: pink;
+    }
+}
+@media(min-width: 992px)
+{
+    .principal{
+        background-color: aliceblue;
+    }
+}
+@media(min-width: 1200px)
+{
+    .principal{
+        background-color: gray;
+    }
+}

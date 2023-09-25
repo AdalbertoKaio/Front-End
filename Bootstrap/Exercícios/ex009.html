@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        img{
+            width: 50px;
+        }
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center"> Lista de músicas </h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Foto</th>
+                    <th>Música</th>
+                    <th>Artista</th>
+                    <th>Gênero</th>
+                    <th>Duração</th>
+                    <th>Classificação</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#1</td>
+                    <td class="d-none d-md-table-cell "><img src="https://akamai.sscdn.co/uploadfile/letras/albuns/9/0/c/5/864021584380618.jpg" alt=""></td>
+                    <td>Young and Beutiful</td>
+                    <td>Lana del Rey</td>
+                    <td>Indie</td>
+                    <td>3:59</td>
+                    <td>
+                        <i class="bi bi-star-fill text-warning "></i>
+                        <i class="bi bi-star-fill text-warning "></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </td>
+                    <td><i class="bi bi-pencil-fill text-primary"></i> <i class="bi bi-info-circle-fill text-success "></i><i class="bi bi-trash3-fill text-danger "></i></td>
+                    
+                </tr>
+                <tr>
+                    <td class="d-none d-md-table-cell ">#2</td>
+                    <td><img src="data:image/jpeg;base64,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" alt=""></td>
+                    <td>A Meu Favor</td>
+                    <td>Filipe Ret</td>
+                    <td>Hip-Hop/rap</td>
+                    <td>2:16</td>
+                    <td>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star text-warning"></i>
+                    </td>
+                    <td><i class="bi bi-pencil-fill text-primary "></i><i class="bi bi-info-circle-fill text-success "></i><i class="bi bi-trash3-fill text-danger "></i></td>
+                </tr>
+                <tr>
+                    <td class="d-none d-md-table-cell ">#3</td>
+                    <td> <img src="https://m.media-amazon.com/images/I/41pWPReHv8L._UXNaN_FMjpg_QL85_.jpg" alt=""></td>
+                    <td>Notion</td>
+                    <td>The Rare Occasions</td>
+                    <td>Indie rock</td>
+                    <td>3:16</td>
+                    <td>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                    </td>
+                    <td><i class="bi bi-pencil-fill text-primary "></i><i class="bi bi-info-circle-fill text-success"></i><i class="bi bi-trash3-fill text-danger "></i></td>
+                </tr>
+            </tbody>
+         </table>
+         <ul class="pagination justify-content-center ">
+            <li class="page-item">
+                <a href="#" class="page-link">Anterior</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">Próximo</a>
+            </li>
+         </ul>
+</body>
+</html>
